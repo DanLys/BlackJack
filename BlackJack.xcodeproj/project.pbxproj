@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3C528ABB2513C3B700B367EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C528ABA2513C3B700B367EC /* main.swift */; };
+		3C528AC2251672BB00B367EC /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C528AC1251672BB00B367EC /* Config.swift */; };
+		3C528AC625168DF200B367EC /* Winner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C528AC525168DF200B367EC /* Winner.swift */; };
+		3C528AC82516A01600B367EC /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C528AC72516A01600B367EC /* Dealer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		3C528AB72513C3B700B367EC /* BlackJack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BlackJack; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C528ABA2513C3B700B367EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3C528AC1251672BB00B367EC /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		3C528AC525168DF200B367EC /* Winner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Winner.swift; sourceTree = "<group>"; };
+		3C528AC72516A01600B367EC /* Dealer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				3C528ABA2513C3B700B367EC /* main.swift */,
+				3C528AC1251672BB00B367EC /* Config.swift */,
+				3C528AC525168DF200B367EC /* Winner.swift */,
+				3C528AC72516A01600B367EC /* Dealer.swift */,
 			);
 			path = BlackJack;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C528AC82516A01600B367EC /* Dealer.swift in Sources */,
 				3C528ABB2513C3B700B367EC /* main.swift in Sources */,
+				3C528AC625168DF200B367EC /* Winner.swift in Sources */,
+				3C528AC2251672BB00B367EC /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
